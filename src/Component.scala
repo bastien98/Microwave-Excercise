@@ -1,3 +1,1 @@
-class Component {
-
-}
+case class Component(componentType: ComponentType.ComponentType, state: Boolean)

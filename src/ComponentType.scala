@@ -1,4 +1,6 @@
-object StateName extends Enumeration {
-  type StateName = Value
-  val Active, Inactive, Pending, Unknown = Value
+object ComponentType extends Enumeration {
+  type ComponentType = Value
+  val Door, Heater, Button = Value
 }
+
+
